@@ -4,4 +4,5 @@ Question: runserver not begin and get error / runserver komutu çalışmadan hat
 File "django/sample/sample/urls.py", line 27, in <module>
     path('catalog/', include(catalog.urls)),
 NameError: name 'catalog' is not defined
-ANSWER: My app named catalog not in INSTALLED_APPS (%70) 
+
+ANSWER: My app named catalog not in INSTALLED_APPS (%70) :) edit: Or stupidly only " error it must start and end 'catalog.urls'
