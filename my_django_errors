@@ -1,0 +1,7 @@
+I am getting this error on Django / Django da karşılaştığım / karşılaşabileceğimiz hatalar
+
+Question: runserver not begin and get error / runserver komutu çalışmadan hata alıyorum:
+File "django/sample/sample/urls.py", line 27, in <module>
+    path('catalog/', include(catalog.urls)),
+NameError: name 'catalog' is not defined
+ANSWER: My app named catalog not in INSTALLED_APPS (%70) 
